@@ -16,5 +16,4 @@ export default class NumberSchema {
     const validator = (value) => value % 2 !== 0;
     return new NumberSchema([...this.validators, validator]);
   }
-
 }
